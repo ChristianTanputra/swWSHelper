@@ -18,7 +18,7 @@ struct DraggableReceiptView: View {
                 .font(.title)
                 .bold()
             
-            Text("Works only when user is in group")
+            Text("Works only when user is in group, or group view")
                 .font(.caption)
             
             DraggableReceiptShareView(receipt: $receipt)
